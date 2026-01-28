@@ -29,7 +29,6 @@ const ProductFormManager = () => {
 				width={450}
 				onClose={closeForm}
 				visible={isDrawerOpen}
-
 				destroyOnClose
 				footer={
 					<div style={{ textAlign: 'right' }}>

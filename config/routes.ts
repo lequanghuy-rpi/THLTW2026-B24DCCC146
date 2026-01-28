@@ -42,6 +42,12 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+		path: '/quan-ly-ban',
+		name: 'QuanLyBan',
+		icon: 'ShoppingOutlined',
+		component: './QuanLyBan',
+	},
 
 	// DANH MUC HE THONG
 	// {
