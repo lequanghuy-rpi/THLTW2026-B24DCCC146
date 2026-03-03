@@ -1,4 +1,8 @@
-﻿export default [
+﻿import component from "@/locales/en-US/component";
+import { icons } from "antd/lib/image/PreviewGroup";
+import path from "path";
+
+export default [
 	{
 		path: '/user',
 		layout: false,
@@ -48,21 +52,21 @@
 		icon: 'ShoppingOutlined',
 		component: './QuanLyBan',
 	},
+	{
+		path: '/th01',
+		name: 'Th01 Bài 1',
+		icon: 'SmileOutlined',
+		component: './TH01',
+	},
+	{
+		path: '/th01p2',
+		name: 'Th01 Bài 2',
+		icon: 'BookOutlined',
+		component: './TH01p2',
+	},
 
-	// DANH MUC HE THONG
-	// {
-	// 	name: 'DanhMuc',
-	// 	path: '/danh-muc',
-	// 	icon: 'copy',
-	// 	routes: [
-	// 		{
-	// 			name: 'ChucVu',
-	// 			path: 'chuc-vu',
-	// 			component: './DanhMuc/ChucVu',
-	// 		},
-	// 	],
-	// },
 
+	
 	{
 		path: '/notification',
 		routes: [
