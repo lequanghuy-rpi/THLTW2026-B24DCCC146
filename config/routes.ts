@@ -64,9 +64,18 @@ export default [
 		icon: 'BookOutlined',
 		component: './TH01p2',
 	},
-
-
-	
+	{
+		path:'/th02',
+		name:'Th02',
+		icon:'SmileOutlined',
+		component:'./TH02',
+	},
+	{
+		path:'/th02p2',
+		name:'Th02 Bài 2',
+		icon:'FileTextOutlined',
+		component:'./TH02p2',
+	},
 	{
 		path: '/notification',
 		routes: [

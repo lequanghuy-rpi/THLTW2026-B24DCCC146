@@ -1,5 +1,5 @@
 import { Card, Input, Button, message,Alert } from 'antd';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Th01: React.FC = () => {
     const [target, setTarget] = useState<number>(() => Math.floor(Math.random() * 100) + 1);
