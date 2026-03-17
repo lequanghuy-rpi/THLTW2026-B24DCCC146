@@ -1,7 +1,4 @@
-﻿import component from "@/locales/en-US/component";
-import { icons } from "antd/lib/image/PreviewGroup";
-import path from "path";
-
+﻿
 export default [
 	{
 		path: '/user',
@@ -20,8 +17,7 @@ export default [
 		],
 	},
 
-	///////////////////////////////////
-	// DEFAULT MENU
+	
 	{
 		path: '/dashboard',
 		name: 'Dashboard',
@@ -52,6 +48,8 @@ export default [
 		icon: 'ShoppingOutlined',
 		component: './QuanLyBan',
 	},
+	
+	
 	{
 		path: '/th01',
 		name: 'Th01 Bài 1',
@@ -75,6 +73,12 @@ export default [
 		name:'Th02 Bài 2',
 		icon:'FileTextOutlined',
 		component:'./TH02p2',
+	},
+	{
+	 	path: '/TH03',
+	 	name: 'TH03',
+	 	icon: 'ToolOutlined',
+	 	component: './TH03',
 	},
 	{
 		path: '/notification',
