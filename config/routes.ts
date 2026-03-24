@@ -81,6 +81,12 @@ export default [
 	 	component: './TH03',
 	},
 	{
+		path: '/TH04',
+		name: 'TH04',
+		icon: 'FileDoneOutlined',
+		component: './TH04',
+	},
+	{
 		path: '/notification',
 		routes: [
 			{
