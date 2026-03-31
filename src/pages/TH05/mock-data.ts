@@ -1,0 +1,70 @@
+import type { Club, Registration } from './types';
+
+export const initialClubs: Club[] = [
+  {
+    id: '1',
+    avatar: 'https://api.dicebear.com/7.x/shapes/svg?seed=music',
+    name: 'CLB Âm nhạc',
+    foundedDate: '2023-01-15',
+    description: 'Nơi giao lưu âm nhạc <b>cực cháy</b>',
+    president: 'Nguyễn Văn A',
+    isActive: true,
+  },
+  {
+    id: '2',
+    avatar: 'https://api.dicebear.com/7.x/shapes/svg?seed=sport',
+    name: 'CLB Thể thao',
+    foundedDate: '2022-11-20',
+    description: 'Rèn luyện sức khỏe mỗi ngày',
+    president: 'Trần Thị B',
+    isActive: false,
+  },
+  {
+    id: '3',
+    avatar: 'https://api.dicebear.com/7.x/shapes/svg?seed=code',
+    name: 'CLB Lập trình',
+    foundedDate: '2024-03-05',
+    description: 'Học hỏi, chia sẻ kỹ thuật và dự án mã nguồn mở',
+    president: 'Lê Văn C',
+    isActive: true,
+  },
+];
+
+export const initialRegistrations: Registration[] = [
+  {
+    id: 'r1',
+    fullName: 'Nguyễn Văn A',
+    email: 'nva@gmail.com',
+    phone: '0987654321',
+    gender: 'Nam',
+    address: 'Hà Nội',
+    skill: 'Guitar',
+    clubId: '1',
+    reason: 'Yêu thích âm nhạc và muốn giao lưu',
+    status: 'Pending',
+  },
+  {
+    id: 'r2',
+    fullName: 'Trần Thị B',
+    email: 'ttb@gmail.com',
+    phone: '0912345678',
+    gender: 'Nữ',
+    address: 'TP HCM',
+    skill: 'Bóng rổ',
+    clubId: '2',
+    reason: 'Muốn rèn luyện sức khỏe',
+    status: 'Pending',
+  },
+  {
+    id: 'r3',
+    fullName: 'Lê Văn C',
+    email: 'lvc@gmail.com',
+    phone: '0978123456',
+    gender: 'Nam',
+    address: 'Đà Nẵng',
+    skill: 'JavaScript',
+    clubId: '3',
+    reason: 'Muốn học hỏi và thực hành dự án',
+    status: 'Approved',
+  },
+];

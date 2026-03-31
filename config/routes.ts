@@ -87,6 +87,12 @@ export default [
 		component: './TH04',
 	},
 	{
+		path: '/TH05',
+		name: 'TH05',
+		icon: 'FileSearchOutlined',
+		component: './TH05',
+	},
+	{
 		path: '/notification',
 		routes: [
 			{
