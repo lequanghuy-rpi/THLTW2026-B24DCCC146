@@ -93,6 +93,12 @@ export default [
 		component: './TH05',
 	},
 	{
+		path: '/TH06',
+		name: 'TH06',
+		icon: 'GlobalOutlined',
+		component: './TH06',
+	},
+	{
 		path: '/notification',
 		routes: [
 			{
