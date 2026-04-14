@@ -99,6 +99,12 @@ export default [
 		component: './TH06',
 	},
 	{
+		path: '/ktgk',
+		name: 'Quản lý khóa học',
+		icon: 'BookOutlined',
+		component: './KTGK',
+	},
+	{
 		path: '/notification',
 		routes: [
 			{
