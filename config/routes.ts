@@ -99,6 +99,14 @@ export default [
 		component: './TH06',
 	},
 	{
+		path: '/TH07',
+		name: 'TH07 ',
+		icon: 'FileTextOutlined',
+		component: './TH07',
+	},
+	
+	
+	{
 		path: '/ktgk',
 		name: 'Quản lý khóa học',
 		icon: 'BookOutlined',
