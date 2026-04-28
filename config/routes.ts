@@ -104,7 +104,12 @@ export default [
 		icon: 'FileTextOutlined',
 		component: './TH07',
 	},
-	
+	{
+		path: '/TH08',
+		name: 'TH08',
+		icon: 'FireOutlined',
+		component: './TH08',
+	},
 	
 	{
 		path: '/ktgk',
